@@ -1,0 +1,26 @@
+# Build e binários
+build/
+*.elf
+*.hex
+*.bin
+*.uf2
+*.map
+
+# Arquivos temporários do CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Arquivos de log e backup
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Configurações do Visual Studio Code
+.vscode/
+
+# Bibliotecas compiladas
+lib/
