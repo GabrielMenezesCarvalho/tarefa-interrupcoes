@@ -1,7 +1,7 @@
-### Projeto: Interrupções no RP2040 com Matriz WS2812 e LED RGB
+### TAREFA 1 DIA 27/01: Interrupções no RP2040 com Matriz WS2812 e LED RGB 
 
 #### 📌 Descrição
-Este projeto implementa interrupções no microcontrolador **RP2040**, utilizando a placa **BitDogLab**. O objetivo é exibir números de 0 a 9 em uma matriz **5x5 de LEDs WS2812**, controlada via GPIO. Além disso, um **LED RGB** pisca continuamente e dois botões permitem a troca dos números exibidos.
+Este projeto implementa interrupções no microcontrolador **RP2040**, utilizando a placa **BitDogLab**. O objetivo é exibir números de 0 a 9 em uma matriz **5x5 de LEDs WS2812**, controlada via GPIO. Além disso, um **LED RGB** pisca continuamente na cor vermelha e dois botões permitem a troca dos números exibidos na matrix 5x5.
 
 #### 🛠️ Componentes Utilizados
 - **Microcontrolador**: Raspberry Pi RP2040 (Placa BitDogLab)
@@ -20,7 +20,7 @@ Este projeto implementa interrupções no microcontrolador **RP2040**, utilizand
 
 #### 📜 Estrutura do Projeto
 - `main.c` → Implementação principal do código.
-- `ws2812.pio.h` → Arquivo gerado via `pico_generate_pio_header` para controlar os LEDs WS2812.
+- `ws2812.pio.h` → Arquivo para controlar os LEDs WS2812.
 - `CMakeLists.txt` → Configuração do CMake para compilar o projeto.
 
 #### 🖥️ Como Executar o Projeto
@@ -40,7 +40,7 @@ Instalar o Pico SDK e extensão Raspberry Pi Pico: Siga as instruções do Pico 
 #### 🎥 Demonstração em Vídeo
 Para ver o projeto em funcionamento, assista ao vídeo abaixo:
 
-➡️ **[adicionar link depois da edição]**
+➡️ **[https://drive.google.com/drive/folders/1DGsDD6rxZWGepMTtH5STJC7rLoly3Cmm?usp=sharing]**
 
 #### 📌 Autor
-Projeto desenvolvido por **Gabriel** para a disciplina de **Sistemas Embarcados**.
+Projeto desenvolvido por **Gabriel Menezes Carvalho** para a fase 1 do **EmbarcaTech**.
